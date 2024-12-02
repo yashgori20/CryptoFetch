@@ -1,5 +1,7 @@
-# Crypto AI Agent 🤖💰
 
+
+# Crypto AI Agent 🤖💰
+## Crypto Ai Agent https://cryptofetch.streamlit.app/
 The **Crypto AI Agent** is an interactive chatbot powered by **LLaMA 3.1 8B** and **CoinAPI**. It provides real-time cryptocurrency price updates and handles general queries. The bot supports multiple currencies and can process inputs in various languages, responding in English.
 
 ---
@@ -69,82 +71,3 @@ Ensure you have Python 3.8 or later installed on your system.
 
 ### Installation Steps
 
-1. Clone the repository:
- git clone https://github.com/your-repo/crypto-ai-agent.git
- cd crypto-ai-agent
-Create and activate a virtual environment:
-
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
-Install the required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Add your API keys to secrets.toml:
-
-plaintext
-Copy code
-[togetherai]
-api_key = "YOUR_TOGETHER_AI_API_KEY"
-
-[coinapi]
-api_key = "YOUR_COINAPI_API_KEY"
-Running the App ▶️
-Start the Streamlit app:
-
-bash
-Copy code
-streamlit run app.py
-Open your browser and navigate to http://localhost:8501.
-
-API Integrations 🔗
-Together AI: Powers the LLaMA 3.1 8B model for natural language understanding and responses.
-CoinAPI: Fetches real-time cryptocurrency price data.
-Technical Stack 🛠️
-Frontend: Streamlit
-Backend: Python
-APIs: Together AI, CoinAPI
-File Structure 📁
-plaintext
-Copy code
-crypto-ai-agent/
-├── app.py             # Main application script
-├── requirements.txt   # Python dependencies
-├── README.md          # Project documentation
-└── secrets.toml       # API keys (not tracked in version control)
-Contributing 🤝
-Contributions are welcome! If you'd like to improve the app or add new features, please follow these steps:
-
-Fork the repository.
-Create a feature branch:
-bash
-Copy code
-git checkout -b feature-name
-Commit your changes:
-bash
-Copy code
-git commit -m "Add feature-name"
-Push to your fork:
-bash
-Copy code
-git push origin feature-name
-Submit a pull request.
-License 📜
-This project is licensed under the MIT License.
-
-Contact 📧
-For questions or support, please reach out to your-email@example.com.
-
-markdown
-Copy code
-
-### Adjustments for Your Project:
-
-1. Replace `your-repo` with the actual repository name.
-2. Replace `your-email@example.com` with your contact email.
-3. Update the license section if you're using a different license.
-
-Let me know if you need further customization or enhancements! 😊

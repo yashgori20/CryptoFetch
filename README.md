@@ -70,12 +70,15 @@ Ensure you have Python 3.8 or later installed on your system.
    git clone https://github.com/your-repo/crypto-ai-agent.git
    cd crypto-ai-agent
    
-2. Install the required dependencies:
-pip install -r requirements.txt
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
 
-3. Run the Streamlit app:
-streamlit run app.py
+4. Run the Streamlit app:
+    ```bash
+    streamlit run app.py
 
-4. Open your browser and navigate to:
-http://localhost:8501
+5. Open your browser and navigate to:
+    ```bash
+   http://localhost:8501
 

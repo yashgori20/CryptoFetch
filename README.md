@@ -65,4 +65,17 @@ Assistant: You are a helpful assistant capable of answering cryptocurrency-relat
 Ensure you have Python 3.8 or later installed on your system.
 
 ### Installation Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/crypto-ai-agent.git
+   cd crypto-ai-agent
+   
+2. Install the required dependencies:
+pip install -r requirements.txt
+
+3. Run the Streamlit app:
+streamlit run app.py
+
+4. Open your browser and navigate to:
+http://localhost:8501
 

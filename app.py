@@ -182,9 +182,6 @@ Welcome to the **Crypto AI Agent**! This assistant can help you with:
 - 🌐 **Understanding inputs in other languages** (responses will be in English)
 
 ---
-
-
-
 """)
 
 with st.form(key='user_input_form', clear_on_submit=True):

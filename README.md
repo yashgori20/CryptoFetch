@@ -1,7 +1,5 @@
-
-
 # Crypto AI Agent 🤖💰
-## Crypto Ai Agent https://cryptofetch.streamlit.app/
+## Crypto AI Agent- https://cryptofetch.streamlit.app/
 The **Crypto AI Agent** is an interactive chatbot powered by **LLaMA 3.1 8B** and **CoinAPI**. It provides real-time cryptocurrency price updates and handles general queries. The bot supports multiple currencies and can process inputs in various languages, responding in English.
 
 ---
@@ -38,9 +36,6 @@ The **Crypto AI Agent** uses carefully crafted prompts to deliver accurate, cont
 ### 2. **Prompt Template**
 - Guides the AI's behavior with a structured system prompt:
 Assistant: You are a helpful assistant capable of answering cryptocurrency-related queries and general questions. Always provide clear, accurate, and polite responses. User: <user-input> Assistant:
-
-markdown
-Copy code
 
 ### 3. **Handling Ambiguities**
 - Translates non-English inputs to English using `googletrans`.
